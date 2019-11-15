@@ -1,10 +1,8 @@
 {
-  "pages": [
-    "pages/home/main"],
-  "window": {
+  
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "",
+    "navigationBarTitleText": "豆画电影-首页",
     "navigationBarTextStyle": "black"
-  }
+  
 }
