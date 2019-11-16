@@ -24,6 +24,10 @@
   line-height: 68rpx;
   text-align: center;
 }
+.move_item {
+  margin-top: 12rpx;
+  margin-bottom: 60rpx;
+}
 .move_item .move_title {
   padding: 0 30rpx;
   height: 87rpx;
@@ -43,10 +47,30 @@
 .move_item .scroll-view_H .scroll-view-item_H {
   width: 200rpx;
   height: 380rpx;
-  background-color: #ccc;
   display: inline-block;
+  margin-right: 18rpx;
 }
 .move_item .scroll-view_H .scroll-view-item_H > img {
   width: 200rpx;
   height: 290rpx;
+}
+.move_item .scroll-view_H .scroll-view-item_H p {
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 25rpx;
+}
+.move_item .scroll-view_H .scroll-view-item_H .rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.move_item .scroll-view_H .scroll-view-item_H .rating span {
+  margin-left: 8rpx;
+  color: #aaa;
+  font-size: 25rpx;
+}
+.move_item .scroll-view_H .scroll-view-item_H .rating .start {
+  width: 20rpx;
+  height: 20rpx;
 }
